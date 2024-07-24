@@ -6,3 +6,4 @@ Utilizaremos drones equipados com mecanismos de dispersão de sementes e softwar
 
 ## Instruções de como usar (ㅋㅋㅋ)
 O site é de fácil uso e intuítivo. No topo dele tem uma barra de navegação que pode te auxiliar a chegar no assunto que interessa para você.
+![foto do site](Capture.JPG)
