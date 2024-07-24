@@ -5,5 +5,5 @@ Nosso site é sobre um projeto para ajudar na agricultura usando drones para dis
 Utilizaremos drones equipados com mecanismos de dispersão de sementes e software de planejamento do trajeto de voo. Isso nos permite adaptar o plantio as condições do terreno e clima, garantindo que cada semente seja plantada no local ideal. Para mais informações é só acessar o link de nosso site https://agrinho-isa-ale.vercel.app/
 
 ## Instruções de como usar (ㅋㅋㅋ)
-O site é de fácil uso e intuítivo. No topo dele tem uma barra de navegação que pode te auxiliar a chegar no assunto que interessa para você.
+O site é de fácil uso e intuítivo. No topo dele tem uma barra de navegação que pode te auxiliar a chegar no assunto que interessa para você. https://agrinho-isa-ale.vercel.app/
 ![foto do site](Capture.JPG)
