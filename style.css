@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --laranja: #F2A663;
+    --laranja-claro: #F2D2B6;
+    --ciano: #20c9dc;
+    --azul: #024885;
+    --azul-escuro: #020659;
+    --fundo-principal: #ffffff;
+    --fundo-secundario: #ffe8d4;
+    --fonte: #040622;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;  
+}
+
+h1, h2, h3, nav, a, label, form {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;  
+}
+
+p, li {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    background-image: linear-gradient(45deg, var(--azul), var(--ciano));
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+}
+
+header nav {
+    background-color: var(--azul);
+    padding: 16px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+header nav a {
+    color: var(--fundo-principal);
+    text-decoration: none;
+    margin: 0 8px;
+    padding: 8px;
+    transition: 0.25s;   
+}
+
+header nav a:hover {
+    border: var(--fundo-principal) solid 2px;
+    border-radius: 10%;
+    background-color: var(--azul-escuro);
+}
+
+header .principal {
+    padding: 8px 16px 16px 32px;
+}
+
+header .titulos {
+    color: var(--fonte);
+
+}
+
+header .titulos h1 {  
+    font-size: 38px;
+    margin-bottom: 4px;
+}
+
+header .titulos h2 {
+    margin-top: 4px;
+}   
+
+img {
+    width: 75%;
+    border-radius: 1%;
+    margin-top: 8px;
+}
+
+.info-imagem {
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+
+main h2 {
+    font-size: 36px;
+    margin: 0 0 8px 0;
+}
+
+main h3 {
+    font-size: 30px;
+    text-align: center;
+    margin: 8px 0;
+    padding: 8px 0;
+    border-bottom: var(--laranja) solid 4px;
+    border-top: var(--laranja) solid 4px;
+}
+
+main p, li {
+    font-size: 20px;
+    margin: 0 0 8px 0;
+}
+
+main {
+    width: 60%;
+    background-color: var(--fundo-secundario);
+    margin: auto;
+    padding: 32px;
+}
+
+footer {
+    background-image: linear-gradient(45deg, var(--azul), var(--ciano));
+    color: #040622;
+    text-align: center;
+    padding: 32px;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--azul-escuro);
+    font-weight: 700;
+    padding: 8px;
+}
+
+footer a:hover {
+    background-color: var(--azul);
+    border-radius: 4%;
+    color: var(--fundo-principal);
+}
+
+#feedback {
+    background-color: var(--laranja);
+    border-radius: 4px;
+    padding: 16px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+}
+
+form input, form textarea {
+    border-radius: 4px;
+    width: 45%;
+    margin: 8px 0
+}
+
+form button {
+    margin: 8px 0;
+    padding: 8px;
+    width: 10%;
+}
+
+p.final {
+    margin-bottom: 20px;
+}
+
+/***RESPONSIVO!***/
+
+@media screen and (max-width: 1100px) {
+    main {
+        width: 85%;
+    }
+}
+@media screen and (max-width: 700px) { 
+    main {
+        width: 95%;
+        padding: 8px 16px;
+    }
+    
+ img {
+    width: 94%;
+ }
+
+    main p, ul p {
+        font-size: 18px;
+    }
+
+
+
+    header nav {
+    display: flex;
+    flex-direction: column;      
+    font-size: 16px;   
+    padding: 8px;
+    margin: 8px;
+    border-radius: 5%;
+    width: 50%;
+    }
+
+    
+}
+
+    
